@@ -15,7 +15,7 @@ app.use(cors());
 app.use("/users", userRouter); 
 app.use("/tour", tourRouter);
 
-const MONGODB_URL = "mongodb+srv://sambhavmishra2512:123456@cluster0.afypghi.mongodb.net/?retryWrites=true&w=majority";
+const MONGODB_URL = "mongodb+srv://sambhavmishra2512:<my_Password>@cluster0.afypghi.mongodb.net/?retryWrites=true&w=majority";
 const port = 5000;
 
 mongoose
